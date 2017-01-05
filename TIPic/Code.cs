@@ -7,13 +7,11 @@ using System.Drawing.Imaging;
 
 namespace TIPic
 {
-    public class MyFileType : FileType
+    public class TIPicFileType : FileType
     {
-        public MyFileType()
-            : base("Text Document",
-                FileTypeFlags.SupportsLoading | FileTypeFlags.SupportsSaving,
-                new String[] { ".txt" })
+        public TIPicFileType() : base("TI Calculator Picture", FileTypeFlags.SupportsLoading | FileTypeFlags.SupportsSaving, new string[] { ".73i", ".82i", ".83i", ".8xi", ".8ca", ".8ci", ".85i", ".86i", ".89i", ".92i", ".9xi", ".v2i" })
         {
+
         }
 
         protected override Document OnLoad(Stream input)
@@ -33,8 +31,7 @@ namespace TIPic
             }
         }
 
-        protected override void OnSave(Document input, Stream output, SaveConfigToken token,
-            Surface scratchSurface, ProgressEventHandler callback)
+        protected override void OnSave(Document input, Stream output, SaveConfigToken token, Surface scratchSurface, ProgressEventHandler callback)
         {
             RenderArgs ra = new RenderArgs(new Surface(input.Size));
             input.Render(ra, true);
@@ -43,11 +40,11 @@ namespace TIPic
         }
     }
 
-    public class MyFileTypeFactory : IFileTypeFactory
+    public class TIPicFileTypeFactory : IFileTypeFactory
     {
         public FileType[] GetFileTypeInstances()
         {
-            return new FileType[] { new MyFileType() };
+            return new FileType[] { new TIPicFileType() };
         }
     }
 }
