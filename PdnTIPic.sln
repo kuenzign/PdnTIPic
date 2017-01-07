@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIPic", "TIPic\TIPic.csproj", "{FE37A903-9E14-4AEC-B639-F7DEFFE7082F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdnTIPic", "PdnTIPic\PdnTIPic.csproj", "{FE37A903-9E14-4AEC-B639-F7DEFFE7082F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

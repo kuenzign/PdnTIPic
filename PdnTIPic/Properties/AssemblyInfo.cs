@@ -6,12 +6,12 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TIPic")]
+[assembly: AssemblyTitle("PdnTIPic")]
 [assembly: AssemblyDescription("A Paint.NET filetype plugin for Texas Instrument calculator picture files")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Barf-a-Cat Studios")]
-[assembly: AssemblyProduct("TIPic")]
-[assembly: AssemblyCopyright("Copyright © Nathan Kuenzig 2017")]
+[assembly: AssemblyProduct("PdnTIPic")]
+[assembly: AssemblyCopyright("Copyright © Barf-a-Cat Studios 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

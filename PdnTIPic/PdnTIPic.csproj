@@ -8,8 +8,8 @@
     <ProjectGuid>{FE37A903-9E14-4AEC-B639-F7DEFFE7082F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TIPic</RootNamespace>
-    <AssemblyName>TIPic</AssemblyName>
+    <RootNamespace>PdnTIPic</RootNamespace>
+    <AssemblyName>PdnTIPic</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
@@ -81,9 +81,13 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="TIPicLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\TIPicLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code.cs" />
+    <Compile Include="PdnTIPicFileType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

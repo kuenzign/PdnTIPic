@@ -1,4 +1,4 @@
-# TIPic
+# PdnTIPic
 
 A Paint.NET filetype plugin to open and save Texas Instrument calculator picture files.
 
@@ -18,4 +18,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Thank you to [Simon Brown](http://forums.getpaint.net/index.php?/profile/48996-simon-brown/) for his [FileType Plugin Template v2.0](http://forums.getpaint.net/index.php?/topic/7984-filetype-plugin-template-v20/)
-* Thank you to [Tim Singer](tsinger@gladstone.uoregon.edu) and [Romain Liévin](roms@lpg.ticalc.org) for the [TI Link Protocol Guide](http://merthsoft.com/linkguide/) v1.4
+* Thank you to [Tim Singer](mailto:tsinger@gladstone.uoregon.edu) and [Romain Liévin](mailto:roms@lpg.ticalc.org) for the [TI Link Protocol Guide](http://merthsoft.com/linkguide/) v1.4
