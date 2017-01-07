@@ -4,6 +4,7 @@ A Paint.NET filetype plugin to open and save Texas Instrument calculator picture
 
 ## Built With
 
+* [TIPicLib](https://github.com/kuenzign/TIPicLib)
 * [.NET Framework 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53344)
 * [Paint.NET 4.0.13](http://www.getpaint.net/index.html)
 
